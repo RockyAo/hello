@@ -15,6 +15,11 @@
 		5C1062711C1575CC00C91002 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C10626F1C1575CC00C91002 /* LaunchScreen.storyboard */; };
 		5C10627C1C1575CC00C91002 /* testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C10627B1C1575CC00C91002 /* testTests.m */; };
 		5C1062871C1575CC00C91002 /* testUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1062861C1575CC00C91002 /* testUITests.m */; };
+		5C1062981C1575DC00C91002 /* __init__.py in Resources */ = {isa = PBXBuildFile; fileRef = 5C1062951C1575DC00C91002 /* __init__.py */; };
+		5C1062991C1575DC00C91002 /* commit-messages.json in Resources */ = {isa = PBXBuildFile; fileRef = 5C1062961C1575DC00C91002 /* commit-messages.json */; };
+		5C10629A1C1575DC00C91002 /* RockStar.py in Resources */ = {isa = PBXBuildFile; fileRef = 5C1062971C1575DC00C91002 /* RockStar.py */; };
+		5C10629C1C15761800C91002 /* swift_rockstar.py in Resources */ = {isa = PBXBuildFile; fileRef = 5C10629B1C15761800C91002 /* swift_rockstar.py */; };
+		5C10629F1C1576B600C91002 /* hello.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C10629E1C1576B600C91002 /* hello.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,12 @@
 		5C1062821C1575CC00C91002 /* testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C1062861C1575CC00C91002 /* testUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testUITests.m; sourceTree = "<group>"; };
 		5C1062881C1575CC00C91002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C1062951C1575DC00C91002 /* __init__.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = __init__.py; sourceTree = "<group>"; };
+		5C1062961C1575DC00C91002 /* commit-messages.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "commit-messages.json"; sourceTree = "<group>"; };
+		5C1062971C1575DC00C91002 /* RockStar.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = RockStar.py; sourceTree = "<group>"; };
+		5C10629B1C15761800C91002 /* swift_rockstar.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = swift_rockstar.py; sourceTree = "<group>"; };
+		5C10629D1C1576B500C91002 /* test-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "test-Bridging-Header.h"; sourceTree = "<group>"; };
+		5C10629E1C1576B600C91002 /* hello.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = hello.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +112,7 @@
 		5C1062601C1575CC00C91002 /* test */ = {
 			isa = PBXGroup;
 			children = (
+				5C1062941C1575DC00C91002 /* rockstar */,
 				5C1062641C1575CC00C91002 /* AppDelegate.h */,
 				5C1062651C1575CC00C91002 /* AppDelegate.m */,
 				5C1062671C1575CC00C91002 /* ViewController.h */,
@@ -110,6 +122,8 @@
 				5C10626F1C1575CC00C91002 /* LaunchScreen.storyboard */,
 				5C1062721C1575CC00C91002 /* Info.plist */,
 				5C1062611C1575CC00C91002 /* Supporting Files */,
+				5C10629E1C1576B600C91002 /* hello.swift */,
+				5C10629D1C1576B500C91002 /* test-Bridging-Header.h */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -138,6 +152,17 @@
 				5C1062881C1575CC00C91002 /* Info.plist */,
 			);
 			path = testUITests;
+			sourceTree = "<group>";
+		};
+		5C1062941C1575DC00C91002 /* rockstar */ = {
+			isa = PBXGroup;
+			children = (
+				5C10629B1C15761800C91002 /* swift_rockstar.py */,
+				5C1062951C1575DC00C91002 /* __init__.py */,
+				5C1062961C1575DC00C91002 /* commit-messages.json */,
+				5C1062971C1575DC00C91002 /* RockStar.py */,
+			);
+			path = rockstar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,8 +268,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C1062991C1575DC00C91002 /* commit-messages.json in Resources */,
 				5C1062711C1575CC00C91002 /* LaunchScreen.storyboard in Resources */,
 				5C10626E1C1575CC00C91002 /* Assets.xcassets in Resources */,
+				5C10629A1C1575DC00C91002 /* RockStar.py in Resources */,
+				5C10629C1C15761800C91002 /* swift_rockstar.py in Resources */,
+				5C1062981C1575DC00C91002 /* __init__.py in Resources */,
 				5C10626C1C1575CC00C91002 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +301,7 @@
 			files = (
 				5C1062691C1575CC00C91002 /* ViewController.m in Sources */,
 				5C1062661C1575CC00C91002 /* AppDelegate.m in Sources */,
+				5C10629F1C1576B600C91002 /* hello.swift in Sources */,
 				5C1062631C1575CC00C91002 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,10 +441,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ra.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "test/test-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -422,10 +455,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = test/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ra.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "test/test-Bridging-Header.h";
 			};
 			name = Release;
 		};

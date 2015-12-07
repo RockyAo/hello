@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "rockstar/swift_rockstar.py"
 
 @interface AppDelegate ()
 

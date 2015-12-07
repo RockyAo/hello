@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "rockstar/RockStar.py"
 
 @interface ViewController ()
 
